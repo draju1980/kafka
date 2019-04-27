@@ -5,11 +5,11 @@ A very simple setup for running a kafka cluster using docker images. It requires
 There are lots of kafka docker images that help you to run a standalone version (with an inbuilt zookeeper or not) on a single node. These images help you to have a single node of kafka and doesn't provide you with high availability. This particular repo helps you in achieving a cluster (high availability) using simple scripts and docker.
 
 # Prerequisites
-**You need a zookeeper cluster.** [See here](https://github.com/gten/docker-zookeeper-cluster). Create a working zookeeper cluster and then try to implement the kafka cluster as follows.
+**You need a zookeeper cluster.** [See here](https://github.com/draju1980/docker-zookeeper-cluster). Create a working zookeeper cluster and then try to implement the kafka cluster as follows.
 
 # Docker image
 ```
-docker pull jeygeethan/kafka-cluster
+docker pull draju1980/kafka-cluster
 ```
 
 # Setting up a kafka cluster
